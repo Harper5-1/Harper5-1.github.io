@@ -592,7 +592,9 @@ const anzhiyu = {
     const waterfallEl = document.getElementById("waterfall");
     if (waterfallEl) {
       setTimeout(function () {
-        waterfall(waterfallEl);
+        try {
+          typeof waterfall === "function" && waterfall(waterfallEl);
+        } catch (e) {}
         waterfallEl.classList.add("show");
       }, 800);
     }

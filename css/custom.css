@@ -1,0 +1,48 @@
+/* 引入思源黑体 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap');
+
+/* 全局字体设置 */
+body, #article-container {
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* 文章标题 */
+#post .post-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* 文章二级标题 */
+#article-container h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* 文章三级标题 */
+#article-container h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+/* 正文字体大小和行高 */
+#article-container p {
+  font-size: 1.15rem;
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+
+/* 正文列表 */
+#article-container li {
+  font-size: 1.05rem;
+  line-height: 2;
+}
+
+/* 首页文章卡片标题 */
+.recent-post-item .article-title {
+  font-size: 1.3rem !important;
+  font-weight: 700;
+}
+
+
